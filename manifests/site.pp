@@ -5,7 +5,7 @@ node default {
     owner   => 'root',
   }
 }
-node 'master.puppet.vm' {
+node 'puppetmaster.example.com' {
 include role::master_server
 }
 
